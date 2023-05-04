@@ -1,0 +1,7 @@
+azure_api_type: azure
+azure_api_base: https://dfivvytech.openai.azure.com
+azure_api_version: 2023-03-01-preview
+azure_model_map:
+    fast_llm_model_deployment_id: "gpt-35-turbo"
+    smart_llm_model_deployment_id: "gpt-35-turbo"
+    embedding_model_deployment_id: "text-embedding-ada-002"
