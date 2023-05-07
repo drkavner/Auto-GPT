@@ -1,0 +1,39 @@
+<h1>How may I help you today?</h1>
+<button onclick="runBatchFile()">Run Auto-GPT</button>
+
+<script>
+function runBatchFile() {
+    var shell = new ActiveXObject("WScript.Shell");
+    shell.run("run.bat");
+}
+</script>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">I want to buy a car</h5>
+          <p class="card-text">I want to buy a car</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">I want to sell a car</h5>
+          <p class="card-text">I want to sell a car</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">I want to rent a car</h5>
+          <p class="card-text">I want to rent a car</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
